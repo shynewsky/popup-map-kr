@@ -22,6 +22,46 @@ const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 const todayKst = () => new Intl.DateTimeFormat('en-CA', { timeZone:'Asia/Seoul', year:'numeric', month:'2-digit', day:'2-digit' }).format(new Date());
 const cleanText = value => value.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/\\([\[\]])/g, '$1').replace(/\s+/g, ' ').trim();
 
+function normalizedTitle(value) {
+  return value.toLowerCase()
+    .replace(/pop\s*-?\s*up(?:\s*store)?|팝업\s*스토어|팝업|open|오픈|신규|행사|기념|프로모션|이벤트/gi, '')
+    .replace(/[\p{P}\p{S}\s]/gu, '');
+}
+
+function brandHint(value) {
+  const match = value.match(/^\s*[\[【「](.*?)[\]】」]/);
+  if (!match) return null;
+  const hint = normalizedTitle(match[1]);
+  return hint && !/^(popup|store)+$/.test(hint) ? hint : null;
+}
+
+function bigramDice(a, b) {
+  if (a === b) return 1;
+  if (a.length < 2 || b.length < 2) return 0;
+  const pairs = value => {
+    const result = new Set();
+    for (let i = 0; i < value.length - 1; i++) result.add(value.slice(i, i + 2));
+    return result;
+  };
+  const left = pairs(a);
+  const right = pairs(b);
+  let shared = 0;
+  for (const pair of left) if (right.has(pair)) shared++;
+  return (2 * shared) / (left.size + right.size);
+}
+
+function samePopupTitle(leftTitle, rightTitle) {
+  const leftBrand = brandHint(leftTitle);
+  const rightBrand = brandHint(rightTitle);
+  if (leftBrand && rightBrand && leftBrand === rightBrand) return true;
+  const left = normalizedTitle(leftTitle);
+  const right = normalizedTitle(rightTitle);
+  if (!left || !right) return false;
+  if (left === right) return true;
+  if (Math.min(left.length, right.length) >= 3 && (left.includes(right) || right.includes(left))) return true;
+  return bigramDice(left, right) >= 0.72;
+}
+
 function regionOf(text = '') {
   for (const [key, value] of Object.entries(regionAliases)) {
     if (text.includes(key)) return value;
@@ -118,17 +158,29 @@ async function main() {
 
   const html = await fetchDayForYou(LIST_URL);
   const today = todayKst();
-  const unique = new Map();
-  for (const record of parse(html)) {
+  const parsedRecords = parse(html);
+  const groups = new Map();
+  let duplicatesMerged = 0;
+  for (const record of parsedRecords) {
     if (record.end < today) continue;
     if (!/(팝업|POP\s*-?\s*UP|Pop\s*-?\s*Up|popup|콜라보)/i.test(record.title)) continue;
-    const key = `${record.title}|${record.address}|${record.start}|${record.end}`.toLowerCase().replace(/\s+/g, ' ');
-    if (!unique.has(key)) unique.set(key, record);
+    const groupKey = `${record.address}|${record.start}|${record.end}`.toLowerCase().replace(/\s+/g, '');
+    const group = groups.get(groupKey) || [];
+    const existing = group.find(candidate => samePopupTitle(candidate.title, record.title));
+    if (existing) {
+      existing.sourceUrls = [...new Set([...existing.sourceUrls, record.sourceUrl])];
+      if (!existing.imageUrl && record.imageUrl) existing.imageUrl = record.imageUrl;
+      duplicatesMerged++;
+    } else {
+      group.push({ ...record, sourceUrls:[record.sourceUrl] });
+      groups.set(groupKey, group);
+    }
   }
+  const uniqueRecords = [...groups.values()].flat();
 
   const perRegion = new Map();
   const selected = [];
-  for (const record of unique.values()) {
+  for (const record of uniqueRecords) {
     const region = regionOf(record.address);
     if (!region || !regions.has(region)) continue;
     if ((perRegion.get(region) || 0) >= MAX_PER_REGION) continue;
@@ -148,11 +200,12 @@ async function main() {
   const now = new Date().toISOString();
   const items = selected.filter(x => coordinateCache.has(x.address)).map(record => {
     const geo = coordinateCache.get(record.address);
+    const sources = record.sourceUrls.map(url => ({ name:'데이포유', type:'aggregator', url }));
     return {
       id:`dayforyou-${record.seq}`, title:record.title, brandName:null, category:categoryOf(record.title), region:record.region,
       venue:{ name:venueOf(record.address), address:record.address, latitude:geo.latitude, longitude:geo.longitude },
       period:{ start:record.start, end:record.end }, verificationStatus:'auto_parsed', confidence:0.74,
-      imageUrl:record.imageUrl, source:{ name:'데이포유', type:'aggregator', url:record.sourceUrl },
+      imageUrl:record.imageUrl, source:sources[0], sources,
       firstSeenAt: previous.items.find(x => x.id === `dayforyou-${record.seq}`)?.firstSeenAt || now,
       lastVerifiedAt:now
     };
@@ -161,11 +214,18 @@ async function main() {
   const output = {
     apiVersion:'v1', generatedAt:now,
     license:'Source-dependent. Each record includes its source URL.',
-    sourceSummary:[{ name:'데이포유', type:'aggregator', url:LIST_URL, records:items.length }],
+    deduplication:{
+      mergedRecords:duplicatesMerged,
+      strategy:'same address and period plus normalized title or brand similarity'
+    },
+    sourceSummary:[{
+      name:'데이포유', type:'aggregator', url:LIST_URL, records:items.length,
+      rawRecords:parsedRecords.length, duplicateCandidatesMerged:duplicatesMerged
+    }],
     items
   };
   await writeFile(OUTPUT, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
-  console.log(`Wrote ${items.length} unique popup records from ${coordinateCache.size} geocoded addresses.`);
+  console.log(`Wrote ${items.length} canonical popup records; merged ${duplicatesMerged} duplicate candidates.`);
 }
 
 main().catch(error => { console.error(error); process.exitCode = 1; });
