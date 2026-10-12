@@ -496,6 +496,8 @@
       const address = item.venue.address;
       const naver = `https://map.naver.com/p/search/${encodeURIComponent(address)}`;
       const kakao = `https://map.kakao.com/link/search/${encodeURIComponent(address)}`;
+      const sources = Array.isArray(item.sources) && item.sources.length ? item.sources : [item.source];
+      const sourceLinks = sources.map((source, index) => `<a class="detail-action" href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer" style="grid-column:1/-1">${sources.length > 1 ? `원문 ${index + 1} 확인하기` : '원문에서 확인하기'}</a>`).join('');
       el('detailPanel').innerHTML = `
         <button class="detail-close" id="detailClose" aria-label="상세 닫기">×</button>
         ${imageMarkup(item,'detail-hero')}
@@ -505,10 +507,10 @@
           <div class="detail-info">
             <div class="detail-row"><div class="detail-icon">◷</div><div><div class="detail-label">운영 기간</div><div class="detail-value">${formatPeriod(item)}</div></div></div>
             <div class="detail-row"><div class="detail-icon">●</div><div><div class="detail-label">장소</div><div class="detail-value"><strong>${escapeHtml(item.venue.name)}</strong><br>${escapeHtml(address)}</div></div></div>
-            <div class="detail-row"><div class="detail-icon">↗</div><div><div class="detail-label">데이터 출처</div><div class="detail-value">${escapeHtml(item.source.name)} · ${escapeHtml(item.verificationStatus)}</div></div></div>
+            <div class="detail-row"><div class="detail-icon">↗</div><div><div class="detail-label">데이터 출처</div><div class="detail-value">${escapeHtml(item.source.name)} · ${escapeHtml(item.verificationStatus)}${sources.length > 1 ? ` · 원문 ${sources.length}개 병합` : ''}</div></div></div>
           </div>
           <div class="confidence-box"><div class="confidence-line"><span>데이터 신뢰도</span><strong>${Math.round(item.confidence*100)}%</strong></div><div class="confidence-track"><div class="confidence-fill" style="width:${Math.round(item.confidence*100)}%"></div></div></div>
-          <div class="detail-actions"><a class="detail-action primary" href="${naver}" target="_blank" rel="noreferrer">네이버지도</a><a class="detail-action" href="${kakao}" target="_blank" rel="noreferrer">카카오맵</a><a class="detail-action" href="${escapeHtml(item.source.url)}" target="_blank" rel="noreferrer" style="grid-column:1/-1">원문에서 확인하기</a></div>
+          <div class="detail-actions"><a class="detail-action primary" href="${naver}" target="_blank" rel="noreferrer">네이버지도</a><a class="detail-action" href="${kakao}" target="_blank" rel="noreferrer">카카오맵</a>${sourceLinks}</div>
           <div class="detail-source">최종 확인 ${new Date(item.lastVerifiedAt).toLocaleString('ko-KR')} · 자동 수집 데이터는 방문 전 원문을 확인해 주세요.</div>
         </div>`;
       el('detailPanel').classList.add('open');
@@ -538,7 +540,8 @@
       if (!r.ok) throw new Error(`API ${r.status}`); return r.json();
     }).then(data => {
       state.items = data.items || [];
-      el('updatedAt').textContent = `업데이트 ${new Date(data.generatedAt).toLocaleString('ko-KR')}`;
+      const merged = Number(data.deduplication?.mergedRecords || 0);
+      el('updatedAt').textContent = `업데이트 ${new Date(data.generatedAt).toLocaleString('ko-KR')}${merged ? ` · 중복 ${merged}건 병합` : ''}`;
       buildFilters(); render(); fitResults();
     }).catch(error => {
       console.error(error);

@@ -33,6 +33,8 @@ components:
           format: date-time
         license:
           type: string
+        deduplication:
+          $ref: '#/components/schemas/Deduplication'
         sourceSummary:
           type: array
           items:
@@ -49,9 +51,17 @@ components:
         type: { type: string }
         url: { type: string, format: uri }
         records: { type: integer, minimum: 0 }
+        rawRecords: { type: integer, minimum: 0 }
+        duplicateCandidatesMerged: { type: integer, minimum: 0 }
+    Deduplication:
+      type: object
+      required: [mergedRecords, strategy]
+      properties:
+        mergedRecords: { type: integer, minimum: 0 }
+        strategy: { type: string }
     Popup:
       type: object
-      required: [id, title, category, region, venue, period, verificationStatus, confidence, source, lastVerifiedAt]
+      required: [id, title, category, region, venue, period, verificationStatus, confidence, source, sources, lastVerifiedAt]
       properties:
         id: { type: string }
         title: { type: string }
@@ -74,6 +84,11 @@ components:
           format: uri
         source:
           $ref: '#/components/schemas/Source'
+        sources:
+          type: array
+          minItems: 1
+          items:
+            $ref: '#/components/schemas/Source'
         firstSeenAt: { type: string, format: date-time }
         lastVerifiedAt: { type: string, format: date-time }
     Venue:
