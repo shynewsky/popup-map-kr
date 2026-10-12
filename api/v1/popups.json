@@ -1,13 +1,13 @@
 {
   "apiVersion": "v1",
-  "generatedAt": "2026-10-08T17:00:00+09:00",
+  "generatedAt": "2026-10-12T07:06:50.490Z",
   "license": "Source-dependent. Each record includes its source URL.",
   "sourceSummary": [
     {
       "name": "데이포유",
       "type": "aggregator",
       "url": "https://dayforyou.com/getScheduleList",
-      "records": 68
+      "records": 221
     }
   ],
   "items": [
@@ -36,7 +36,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39331"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39330",
@@ -63,7 +63,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39330"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39329",
@@ -90,7 +90,61 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39329"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39328",
+      "title": "피키팝 팝업 스토어",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 천호점",
+        "address": "서울 강동구 천호대로 1005 현대백화점 천호점",
+        "latitude": 37.538938,
+        "longitude": 127.124073
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202607/29/ffac261c-1e57-44a4-8474-5a2f25e2965f.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39328"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39327",
+      "title": "플로카티 팝업 스토어",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 천호점",
+        "address": "서울 강동구 천호대로 1005 현대백화점 천호점",
+        "latitude": 37.538938,
+        "longitude": 127.124073
+      },
+      "period": {
+        "start": "2026-10-06",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202601/20/6f216142-3c74-4cb2-9e90-db0404ca8b99_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39327"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39326",
@@ -117,7 +171,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39326"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39325",
@@ -144,7 +198,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39325"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39324",
+      "title": "츄플러스 팝업 스토어",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 천호점",
+        "address": "서울 강동구 천호대로 1005 현대백화점 천호점",
+        "latitude": 37.538938,
+        "longitude": 127.124073
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202604/08/a47c6a7a-6c20-49e7-85a5-7f88ee969ccd.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39324"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39323",
@@ -171,7 +252,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39323"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39322",
+      "title": "제로어클락 팝업 스토어",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 천호점",
+        "address": "서울 강동구 천호대로 1005 현대백화점 천호점",
+        "latitude": 37.538938,
+        "longitude": 127.124073
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/18/623d0e19-4a08-4193-919c-93c71cebc56c.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39322"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39320",
@@ -198,7 +306,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39320"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39319",
@@ -225,7 +333,88 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39319"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39318",
+      "title": "완도전복야끼 팝업스토어",
+      "brandName": null,
+      "category": "푸드",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 천호점",
+        "address": "서울 강동구 천호대로 1005 현대백화점 천호점",
+        "latitude": 37.538938,
+        "longitude": 127.124073
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/07/75b2efa4-c3fd-46ab-9927-f2d778979e17.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39318"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39317",
+      "title": "올레땅콩과자 팝업 스토어",
+      "brandName": null,
+      "category": "푸드",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 천호점",
+        "address": "서울 강동구 천호대로 1005 현대백화점 천호점",
+        "latitude": 37.538938,
+        "longitude": 127.124073
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202608/25/dd879039-377f-4a38-8483-8dc71efc1481_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39317"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39316",
+      "title": "에그플랜 팝업 스토어",
+      "brandName": null,
+      "category": "푸드",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 천호점",
+        "address": "서울 강동구 천호대로 1005 현대백화점 천호점",
+        "latitude": 37.538938,
+        "longitude": 127.124073
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202610/06/d18f7eee-6778-4eb2-94a4-a0fd2c55e0f8_02.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39316"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39315",
@@ -252,7 +441,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39315"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39314",
@@ -279,7 +468,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39314"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39313",
@@ -306,7 +495,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39313"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39312",
@@ -333,7 +522,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39312"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39311",
+      "title": "강릉막걸리술빵 팝업 스토어",
+      "brandName": null,
+      "category": "푸드",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 천호점",
+        "address": "서울 강동구 천호대로 1005 현대백화점 천호점",
+        "latitude": 37.538938,
+        "longitude": 127.124073
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202510/01/e387de38-df98-4fe7-b1ad-ff2e1e391933_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39311"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39310",
@@ -360,7 +576,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39310"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39309",
@@ -387,7 +603,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39309"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39308",
@@ -414,7 +630,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39308"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39307",
@@ -441,7 +657,88 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39307"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39305",
+      "title": "[파리게이츠] 가을 골프웨어 Pop-Up",
+      "brandName": null,
+      "category": "패션",
+      "region": "서울",
+      "venue": {
+        "name": "롯데백화점 잠실점",
+        "address": "서울 송파구 올림픽로 240 롯데백화점 잠실점",
+        "latitude": 37.5114987,
+        "longitude": 127.0982387
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202610/SNM00000000000564361/20261008093324395_0.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39305"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39303",
+      "title": "[정남미명과] 팝업",
+      "brandName": null,
+      "category": "푸드",
+      "region": "서울",
+      "venue": {
+        "name": "신세계백화점 타임스퀘어점",
+        "address": "서울 영등포구 영중로 9 신세계백화점 타임스퀘어점",
+        "latitude": 37.5172432,
+        "longitude": 126.9038368
+      },
+      "period": {
+        "start": "2026-10-08",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://www.shinsegae.com/cms12/SC00003/info/shopping/brndsingle/__icsFiles/afieldfile/2026/10/07/Pkclao43u4Xw.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39303"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39302",
+      "title": "[자일리톨스톤] 국민건강캔디 Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "롯데백화점 강남점",
+        "address": "서울 강남구 도곡로 401 롯데백화점 강남점",
+        "latitude": 37.4969688,
+        "longitude": 127.0532411
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202601/SNM00000000000507461/20260114175357408_3.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39302"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39295",
@@ -468,7 +765,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39295"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39291",
@@ -495,7 +792,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39291"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39290",
+      "title": "[사라다빵] 팝업",
+      "brandName": null,
+      "category": "푸드",
+      "region": "서울",
+      "venue": {
+        "name": "신세계백화점 타임스퀘어점",
+        "address": "서울 영등포구 영중로 9 신세계백화점 타임스퀘어점",
+        "latitude": 37.5172432,
+        "longitude": 126.9038368
+      },
+      "period": {
+        "start": "2026-10-08",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://www.shinsegae.com/cms12/SC00003/info/shopping/brndsingle/__icsFiles/afieldfile/2026/10/04/1787784650605-20261004050156-20261004050157_1.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39290"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39289",
@@ -522,7 +846,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39289"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39287",
+      "title": "[브라운트리] 치즈케이크 Pop-Up",
+      "brandName": null,
+      "category": "푸드",
+      "region": "서울",
+      "venue": {
+        "name": "롯데백화점 본점",
+        "address": "서울 중구 남대문로 81 롯데백화점 본점",
+        "latitude": 37.5646774,
+        "longitude": 126.9808542
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202608/SNM00000000000555528/20260828161933681_8.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39287"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39286",
@@ -549,7 +900,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39286"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39285",
@@ -576,7 +927,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39285"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39281",
@@ -603,7 +954,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39281"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39279",
+      "title": "[모모하니포포] Pop-Up Open",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "롯데백화점 잠실점",
+        "address": "서울 송파구 올림픽로 240 롯데백화점 잠실점",
+        "latitude": 37.5114987,
+        "longitude": 127.0982387
+      },
+      "period": {
+        "start": "2026-10-11",
+        "end": "2026-11-30"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202610/SNM00000000000565903/20261011175500698_7.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39279"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39275",
@@ -630,7 +1008,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39275"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39273",
+      "title": "[롤리롤리] Pop-Up 오늘의 달콤한 선택",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "롯데백화점 구리점",
+        "address": "경기 구리시 경춘로 261 롯데백화점 구리점",
+        "latitude": 37.6029201,
+        "longitude": 127.1447487
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202607/SNM00000000000549912/20260730155126349_8.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39273"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39271",
@@ -657,7 +1062,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39271"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39269",
@@ -684,7 +1089,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39269"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39268",
+      "title": "[뉴욕에 간 방앗간] Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "롯데백화점 본점",
+        "address": "서울 중구 남대문로 81 롯데백화점 본점",
+        "latitude": 37.5646774,
+        "longitude": 126.9808542
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202610/SNM00000000000564447/20261004124909413_5.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39268"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39266",
@@ -711,7 +1143,196 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39266"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39265",
+      "title": "[꽈배기 하우스] 꽈배기 맛집 Pop-Up",
+      "brandName": null,
+      "category": "푸드",
+      "region": "경기",
+      "venue": {
+        "name": "롯데백화점 구리점",
+        "address": "경기 구리시 경춘로 261 롯데백화점 구리점",
+        "latitude": 37.6029201,
+        "longitude": 127.1447487
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202604/SNM00000000000526092/20260408182252251_2.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39265"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39264",
+      "title": "[근대골목단팥빵] 팝업",
+      "brandName": null,
+      "category": "푸드",
+      "region": "서울",
+      "venue": {
+        "name": "신세계백화점 타임스퀘어점",
+        "address": "서울 영등포구 영중로 9 신세계백화점 타임스퀘어점",
+        "latitude": 37.5172432,
+        "longitude": 126.9038368
+      },
+      "period": {
+        "start": "2026-10-08",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://www.shinsegae.com/cms12/SC00003/info/shopping/brndsingle/__icsFiles/afieldfile/2026/10/07/pGOnbEt1teCx.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39264"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39261",
+      "title": "[POP-UP] 헬로키티 With 압소바",
+      "brandName": null,
+      "category": "캐릭터·IP",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 목동점",
+        "address": "서울 양천구 목동동로 257 현대백화점 목동점",
+        "latitude": 37.526245,
+        "longitude": 126.875544
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/29/480fe7cf-89a4-4c46-8ab4-b93a08db0688.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39261"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39260",
+      "title": "[POP-UP] 필리앤델리",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 미아점",
+        "address": "서울 성북구 동소문로 315 현대백화점 미아점",
+        "latitude": 37.6084491,
+        "longitude": 127.0284643
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202605/11/c5b3bd0b-1841-4255-9367-82fdcb0e5254_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39260"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39259",
+      "title": "[POP-UP] 토니로렌스",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 목동점",
+        "address": "서울 양천구 목동동로 257 현대백화점 목동점",
+        "latitude": 37.526245,
+        "longitude": 126.875544
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/08/087bac98-608e-41cf-8b29-ac97940c865c.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39259"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39258",
+      "title": "[POP-UP] 크리썸",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 목동점",
+        "address": "서울 양천구 목동동로 257 현대백화점 목동점",
+        "latitude": 37.526245,
+        "longitude": 126.875544
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202607/01/1b91c524-def8-4b02-b7f7-86231d0f8cfb.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39258"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39256",
+      "title": "[POP-UP] 워터블라썸",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 미아점",
+        "address": "서울 성북구 동소문로 315 현대백화점 미아점",
+        "latitude": 37.6084491,
+        "longitude": 127.0284643
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/07/c26d682e-0ab0-4ecd-a035-b7ad54c9a806.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39256"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39252",
@@ -738,7 +1359,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39252"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39251",
+      "title": "[POP-UP] 알렉산드르드파리",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 목동점",
+        "address": "서울 양천구 목동동로 257 현대백화점 목동점",
+        "latitude": 37.526245,
+        "longitude": 126.875544
+      },
+      "period": {
+        "start": "2026-10-12",
+        "end": "2026-11-08"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202606/29/9b7ecc79-7610-47c3-b08f-982ac2c768df.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39251"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39249",
@@ -765,7 +1413,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39249"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39247",
+      "title": "[POP-UP] 베이커리1997 에그타르트",
+      "brandName": null,
+      "category": "푸드",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 미아점",
+        "address": "서울 성북구 동소문로 315 현대백화점 미아점",
+        "latitude": 37.6084491,
+        "longitude": 127.0284643
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202606/09/ce8714bf-2a79-408e-9511-e16587dce8af.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39247"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39245",
@@ -792,7 +1467,88 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39245"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39244",
+      "title": "[POP-UP] 마크곤잘레스",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202609/19/e97e0ab6-dac6-452a-9eb7-b188b180d0fa_02.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39244"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39243",
+      "title": "[POP-UP] 르주니엘",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 목동점",
+        "address": "서울 양천구 목동동로 257 현대백화점 목동점",
+        "latitude": 37.526245,
+        "longitude": 126.875544
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202508/25/f6e28b12-7280-437d-9901-97abe566ac1a.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39243"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39242",
+      "title": "[POP-UP] 룸147",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 목동점",
+        "address": "서울 양천구 목동동로 257 현대백화점 목동점",
+        "latitude": 37.526245,
+        "longitude": 126.875544
+      },
+      "period": {
+        "start": "2026-10-12",
+        "end": "2026-10-25"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202606/09/e04576ae-9070-4e37-ae4c-c3bb58ef29ec.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39242"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39239",
@@ -819,7 +1575,277 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39239"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39238",
+      "title": "[POP-UP] 더룸아틀리에",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 목동점",
+        "address": "서울 양천구 목동동로 257 현대백화점 목동점",
+        "latitude": 37.526245,
+        "longitude": 126.875544
+      },
+      "period": {
+        "start": "2026-10-12",
+        "end": "2026-10-25"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/01/778344b6-ff56-44d7-94b1-870afc5203bb.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39238"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39237",
+      "title": "[POP-UP] 달모어",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202602/04/093c0702-580a-43cc-9684-252c8fdd5ee4.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39237"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39236",
+      "title": "[POP-UP] 노비스",
+      "brandName": null,
+      "category": "패션",
+      "region": "경기",
+      "venue": {
+        "name": "현대프리미엄아울렛 김포점",
+        "address": "경기 김포시 고촌읍 아라육로152번길 100 현대프리미엄아울렛 김포점",
+        "latitude": 37.5993668,
+        "longitude": 126.7865129
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202608/18/33bd43de-4793-44bd-b111-c19196557030.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39236"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39235",
+      "title": "[POP-UP] 나물김밥",
+      "brandName": null,
+      "category": "푸드",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202610/06/b70254b4-00cf-45be-87b8-d542542a72d8_02.gif",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39235"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39234",
+      "title": "[POP-UP] 끌림",
+      "brandName": null,
+      "category": "기타",
+      "region": "서울",
+      "venue": {
+        "name": "현대백화점 목동점",
+        "address": "서울 양천구 목동동로 257 현대백화점 목동점",
+        "latitude": 37.526245,
+        "longitude": 126.875544
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/08/ebe5565a-8b00-4754-a5a1-0235907bb83a.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39234"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39233",
+      "title": "[POP-UP] 고마야_식혜 & 빠스",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/08/d8adb564-56b1-433e-8f36-8745d419a9d0.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39233"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39232",
+      "title": "[POP-UP] BARBOUR TARTANS ①",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대프리미엄아울렛 SPACE 1",
+        "address": "경기도 남양주시 다산순환로 50 현대프리미엄아울렛 SPACE 1",
+        "latitude": 37.616141,
+        "longitude": 127.1516508
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/04/27e7efba-9c49-46d9-a422-e1cc8a92af61.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39232"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39231",
+      "title": "[POP-UP STUDIO] 삼도(3.DO)_아게산도",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대프리미엄아울렛 SPACE 1",
+        "address": "경기도 남양주시 다산순환로 50 현대프리미엄아울렛 SPACE 1",
+        "latitude": 37.616141,
+        "longitude": 127.1516508
+      },
+      "period": {
+        "start": "2026-10-12",
+        "end": "2026-11-01"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/03/3f56ee62-9dcb-4d97-a313-21c167ee6987.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39231"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39229",
+      "title": "[POP-UP STORE] 한번 뿌리면 멈출 수 없는 에브리띵시즈닝",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 킨텍스점",
+        "address": "경기 고양시 일산서구 호수로 817 현대백화점 킨텍스점",
+        "latitude": 37.6682127,
+        "longitude": 126.7512335
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/06/e0ec6d92-838e-496c-b175-a8f3fb6d79d7.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39229"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39228",
+      "title": "[POP-UP STORE] 플로미 취향 상담소",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 킨텍스점",
+        "address": "경기 고양시 일산서구 호수로 817 현대백화점 킨텍스점",
+        "latitude": 37.6682127,
+        "longitude": 126.7512335
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/02/9dcc8239-0a44-4c27-8e1f-e8eaa2b892d5.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39228"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39225",
@@ -846,7 +1872,115 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39225"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39224",
+      "title": "[POP-UP STORE] 캐릭플레이스",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 판교점",
+        "address": "경기 성남시 분당구 판교역로146번길 20 현대백화점 판교점",
+        "latitude": 37.3927998,
+        "longitude": 127.1119913
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/07/b1f5c82c-f0cf-49d5-a511-e4a6ef1f0f41.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39224"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39223",
+      "title": "[POP-UP STORE] 제이트리",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 킨텍스점",
+        "address": "경기 고양시 일산서구 호수로 817 현대백화점 킨텍스점",
+        "latitude": 37.6682127,
+        "longitude": 126.7512335
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202510/20/65a16dbc-02f0-492d-bb27-b905d7957d9c_02.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39223"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39222",
+      "title": "[POP-UP STORE] 전자오락수호대",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 중동점",
+        "address": "경기 부천시 원미구 길주로 180 현대백화점 중동점",
+        "latitude": 37.5044215,
+        "longitude": 126.7621247
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/08/8e3e1336-8801-4e4c-97b6-e6cbfb0d25b5.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39222"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39221",
+      "title": "[POP-UP STORE] 일삼오디(13ODY)",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 판교점",
+        "address": "경기 성남시 분당구 판교역로146번길 20 현대백화점 판교점",
+        "latitude": 37.3927998,
+        "longitude": 127.1119913
+      },
+      "period": {
+        "start": "2026-10-05",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202610/01/6ccd8034-ce89-4039-be96-6b1e72dfaa7a_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39221"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39219",
@@ -873,7 +2007,61 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39219"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39218",
+      "title": "[POP-UP STORE] 유비맘클로젯",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 판교점",
+        "address": "경기 성남시 분당구 판교역로146번길 20 현대백화점 판교점",
+        "latitude": 37.3927998,
+        "longitude": 127.1119913
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202610/06/e758236c-7e4c-44f0-b674-2157d84a127f_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39218"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39217",
+      "title": "[POP-UP STORE] 유레브",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 판교점",
+        "address": "경기 성남시 분당구 판교역로146번길 20 현대백화점 판교점",
+        "latitude": 37.3927998,
+        "longitude": 127.1119913
+      },
+      "period": {
+        "start": "2026-10-12",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/07/0e897bab-08b6-451a-9971-d107436dfdfc.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39217"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39213",
@@ -900,7 +2088,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39213"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39212",
@@ -927,7 +2115,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39212"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39211",
@@ -954,7 +2142,88 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39211"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39210",
+      "title": "[POP-UP STORE] 세라믹몽",
+      "brandName": null,
+      "category": "기타",
+      "region": "충북",
+      "venue": {
+        "name": "현대백화점 충청점",
+        "address": "충북 청주시 흥덕구 직지대로 308 현대백화점 충청점",
+        "latitude": 36.6442598,
+        "longitude": 127.4359245
+      },
+      "period": {
+        "start": "2026-10-08",
+        "end": "2026-10-29"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/03/b8d1b5d6-29df-4b0a-bab8-437de27d8bd3.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39210"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39205",
+      "title": "[POP-UP STORE] 베킨(BACKIN)",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 킨텍스점",
+        "address": "경기 고양시 일산서구 호수로 817 현대백화점 킨텍스점",
+        "latitude": 37.6682127,
+        "longitude": 126.7512335
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202512/02/437c01dd-23be-401b-9dee-32535d1ebcd1.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39205"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39204",
+      "title": "[POP-UP STORE] 미담고로케",
+      "brandName": null,
+      "category": "기타",
+      "region": "충북",
+      "venue": {
+        "name": "현대백화점 충청점",
+        "address": "충북 청주시 흥덕구 직지대로 308 현대백화점 충청점",
+        "latitude": 36.6442598,
+        "longitude": 127.4359245
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202601/29/91d4c867-53bd-4528-b65e-235ea028d0f7_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39204"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39202",
@@ -981,7 +2250,304 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39202"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39201",
+      "title": "[POP-UP STORE] 뤼뒤썽뱅두",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/04/ff5477db-885b-4eff-a2dc-a91b6c0ce946.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39201"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39198",
+      "title": "[POP-UP STORE] 로랑바디에 & 라잇트리",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 판교점",
+        "address": "경기 성남시 분당구 판교역로146번길 20 현대백화점 판교점",
+        "latitude": 37.3927998,
+        "longitude": 127.1119913
+      },
+      "period": {
+        "start": "2026-10-12",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/05/413ab68e-533a-405e-b085-2fb50a8ce542.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39198"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39197",
+      "title": "[POP-UP STORE] 뚱땡이 꼬마김밥",
+      "brandName": null,
+      "category": "푸드",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202602/25/74bf14ef-999c-4d9a-a802-e8c32feb1d37_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39197"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39196",
+      "title": "[POP-UP STORE] 디올 뷰티",
+      "brandName": null,
+      "category": "뷰티",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 판교점",
+        "address": "경기 성남시 분당구 판교역로146번길 20 현대백화점 판교점",
+        "latitude": 37.3927998,
+        "longitude": 127.1119913
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-14"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202610/04/93bc998c-634a-4ab7-87a5-26e2d7a1ba99_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39196"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39195",
+      "title": "[POP-UP STORE] 더닷",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 판교점",
+        "address": "경기 성남시 분당구 판교역로146번길 20 현대백화점 판교점",
+        "latitude": 37.3927998,
+        "longitude": 127.1119913
+      },
+      "period": {
+        "start": "2026-10-12",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/02/6d74d110-4c89-408b-a1d7-ca983e1c6fd5.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39195"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39194",
+      "title": "[POP-UP STORE] 담아헌",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202608/26/596f4e12-5105-406a-9790-bb8e2c2988b5.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39194"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39193",
+      "title": "[POP-UP STORE] 닭발만찬",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202610/07/0f5375e6-2971-43d6-bc83-6c45a30c5c95_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39193"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39192",
+      "title": "[POP-UP STORE] 닭동강정 by닭동가리",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202610/05/2158990b-a60f-41b9-8e54-48de5a951626_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39192"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39191",
+      "title": "[POP-UP STORE] 노배드바이브스",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202508/04/b03146dd-fb7e-43d8-be4e-b49152321fa3.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39191"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39190",
+      "title": "[POP-UP STORE] 냥냥냥냥냥",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/05/cd917a92-09a5-4622-84b9-aa223ca142f5.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39190"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39188",
+      "title": "[POP-UP STORE] 『리브인어트리』 일본도자기 테이블웨어",
+      "brandName": null,
+      "category": "패션",
+      "region": "경기",
+      "venue": {
+        "name": "현대백화점 킨텍스점",
+        "address": "경기 고양시 일산서구 호수로 817 현대백화점 킨텍스점",
+        "latitude": 37.6682127,
+        "longitude": 126.7512335
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/06/ad5d856a-5e10-4796-aa2e-47cdaa46d03b.JPG",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39188"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39179",
@@ -1008,7 +2574,169 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39179"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39178",
+      "title": "[ POP-UP STORE ] 펫 페어",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202610/02/9591e31d-9af1-4de5-95c1-3afaa2677fb4_02.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39178"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39177",
+      "title": "[ POP-UP STORE ] 코테보쎄",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202610/02/f842cb06-d714-44bb-be25-d3e6affff58e_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39177"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39176",
+      "title": "TOUS POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "울산",
+      "venue": {
+        "name": "현대백화점 울산점",
+        "address": "울산 남구 삼산로 261 현대백화점 울산점",
+        "latitude": 35.5349396,
+        "longitude": 129.3182006
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/08/89e4c04e-5ddb-4cf4-8553-0c2b50cce463.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39176"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39170",
+      "title": "1년에 두 번! 써스데이아일랜드 팝업",
+      "brandName": null,
+      "category": "기타",
+      "region": "울산",
+      "venue": {
+        "name": "현대백화점 울산점",
+        "address": "울산 남구 삼산로 261 현대백화점 울산점",
+        "latitude": 35.5349396,
+        "longitude": 129.3182006
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/04/b595d1ca-71ee-4b4d-a7fd-62cd4bf753bb.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39170"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39166",
+      "title": "[미트충전소 POP-UP] 롯데백화점 중동점 할매양념",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "롯데백화점 중동점",
+        "address": "경기 부천시 원미구 중동 1140, 롯데백화점 중동점 B1층 팝업행사장",
+        "latitude": 37.4991027,
+        "longitude": 126.7676559
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": null,
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39166"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39139",
+      "title": "[황홀스레] 마카롱 & 두바이 쫀득쿠키 팝업",
+      "brandName": null,
+      "category": "푸드",
+      "region": "경기",
+      "venue": {
+        "name": "AK플라자 수원",
+        "address": "경기 수원시 팔달구 덕영대로 924 AK플라자 수원",
+        "latitude": 37.2648071,
+        "longitude": 127.0015036
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://img-www.akplaza.com/upload/edm/news/29722/e4a69b66-7d1c-4096-98cf-2d11ba3ca371.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39139"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39137",
@@ -1035,7 +2763,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39137"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39136",
@@ -1062,7 +2790,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39136"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39135",
+      "title": "[티르리르] 팝업 행사",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "AK플라자 수원",
+        "address": "경기 수원시 팔달구 덕영대로 924 AK플라자 수원",
+        "latitude": 37.2648071,
+        "longitude": 127.0015036
+      },
+      "period": {
+        "start": "2026-10-08",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://img-www.akplaza.com/upload/edm/news/29739/70ce271c-bbaa-4699-b97c-a255ad965fab.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39135"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39134",
@@ -1089,7 +2844,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39134"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39133",
@@ -1116,7 +2871,61 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39133"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39125",
+      "title": "[스켑슐트] Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "롯데백화점 인천점",
+        "address": "인천 미추홀구 연남로 35 롯데백화점 인천점",
+        "latitude": 37.4419398,
+        "longitude": 126.7026655
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202610/SNM00000000000562733/20261007104507728_3.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39125"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39122",
+      "title": "[삼부자닭발] 팝업",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "AK플라자 수원",
+        "address": "경기 수원시 팔달구 덕영대로 924 AK플라자 수원",
+        "latitude": 37.2648071,
+        "longitude": 127.0015036
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://img-www.akplaza.com/upload/edm/news/29874/52da7b3f-bdd3-4fb8-a5e1-3852fb3c6797.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39122"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39120",
@@ -1143,7 +2952,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39120"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39119",
@@ -1170,7 +2979,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39119"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39118",
@@ -1197,7 +3006,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39118"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39115",
@@ -1224,7 +3033,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39115"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39114",
@@ -1251,7 +3060,61 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39114"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39113",
+      "title": "[루키스타] 팝업",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "AK플라자 수원",
+        "address": "경기 수원시 팔달구 덕영대로 924 AK플라자 수원",
+        "latitude": 37.2648071,
+        "longitude": 127.0015036
+      },
+      "period": {
+        "start": "2026-10-08",
+        "end": "2026-11-08"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://img-www.akplaza.com/upload/edm/news/29740/c5b60023-1eef-44d8-b684-bce7e56f56ff.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39113"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39112",
+      "title": "[롤리롤리] 오늘의 달콤한 선택 롤리롤리 Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "롯데백화점 구리점",
+        "address": "경기 구리시 경춘로 261 롯데백화점 구리점",
+        "latitude": 37.6029201,
+        "longitude": 127.1447487
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202607/SNM00000000000549912/20260730155126349_8.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39112"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39111",
@@ -1278,7 +3141,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39111"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39110",
+      "title": "[디즈니 팝업]",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "AK플라자 평택",
+        "address": "경기 평택시 평택로 51 AK플라자 평택",
+        "latitude": 36.9915179,
+        "longitude": 127.0852923
+      },
+      "period": {
+        "start": "2026-10-08",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://img-www.akplaza.com/upload/edm/news/29823/186875cc-10dc-4840-97a5-e8f5cd1719df.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39110"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39107",
@@ -1305,7 +3195,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39107"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39106",
@@ -1332,7 +3222,169 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39106"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39105",
+      "title": "[담초] 회/초밥 전문 Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "롯데백화점 인천점",
+        "address": "인천 미추홀구 연남로 35 롯데백화점 인천점",
+        "latitude": 37.4419398,
+        "longitude": 126.7026655
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202603/SNM00000000000520874/20260323091313520_3.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39105"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39104",
+      "title": "[나따오비까] 에그타르트 Pop-Up",
+      "brandName": null,
+      "category": "푸드",
+      "region": "경기",
+      "venue": {
+        "name": "롯데백화점 일산점",
+        "address": "경기 고양시 일산동구 중앙로 1283 롯데백화점 일산점",
+        "latitude": 37.6605306,
+        "longitude": 126.7721009
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202504/SNM00000000000436825/20250416094856773_3.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39104"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39101",
+      "title": "[가메골손만두] 남대문 가메골손만두 팝업",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "AK플라자 수원",
+        "address": "경기 수원시 팔달구 덕영대로 924 AK플라자 수원",
+        "latitude": 37.2648071,
+        "longitude": 127.0015036
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://img-www.akplaza.com/upload/edm/news/29723/611f5cfc-b24e-4971-a919-2bab89177d96.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39101"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39100",
+      "title": "[OBC] 세계 우승 양조장 OBC맥주 Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "롯데백화점 상인점",
+        "address": "대구 달서구 월배로 232 롯데백화점 상인점",
+        "latitude": 35.8124114,
+        "longitude": 128.5182749
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202610/SNM00000000000564996/20261006180417977_5.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39100"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39099",
+      "title": "[CP컴퍼니] 26 F/W 아우터 Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "롯데백화점 인천점",
+        "address": "인천 미추홀구 연남로 35 롯데백화점 인천점",
+        "latitude": 37.4419398,
+        "longitude": 126.7026655
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000562239/20260926150936127_3.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39099"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39082",
+      "title": "[히요리산도] 신규 팝업",
+      "brandName": null,
+      "category": "기타",
+      "region": "경기",
+      "venue": {
+        "name": "AK플라자 분당",
+        "address": "경기 성남시 분당구 황새울로360번길 42 AK플라자 분당",
+        "latitude": 37.3850927,
+        "longitude": 127.1231018
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-29"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://img-www.akplaza.com/upload/edm/news/29785/5b6716c7-ecbc-4daa-b9ac-d08233c582ac.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39082"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39078",
@@ -1359,7 +3411,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39078"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39077",
@@ -1386,7 +3438,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39077"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39048",
@@ -1413,7 +3465,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39048"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39046",
@@ -1440,7 +3492,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39046"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39045",
+      "title": "[체로프 몽모] 몽모월드 팝업스토어",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "신세계백화점 센텀시티",
+        "address": "부산 해운대구 센텀남대로 35 신세계백화점 센텀시티",
+        "latitude": 35.1687608,
+        "longitude": 129.1296435
+      },
+      "period": {
+        "start": "2026-10-05",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://www.shinsegae.com/cms12/SC00008/info/shopping/brndintg/__icsFiles/afieldfile/2026/10/04/mongmo720720.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39045"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39044",
@@ -1467,7 +3546,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39044"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39043",
+      "title": "[POP-UP] 비알트 캐시미어",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "현대아울렛 대구점",
+        "address": "대구광역시 동구 동대구로 454 현대아울렛 대구점",
+        "latitude": 35.8745716,
+        "longitude": 128.6255164
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202609/05/0f458952-b399-41d1-b2e2-390764300d46.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39043"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39040",
@@ -1494,7 +3600,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39040"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39039",
@@ -1521,7 +3627,61 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39039"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39038",
+      "title": "[갓파이] 대구 미트파이 POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "롯데백화점 대구점",
+        "address": "대구 북구 태평로 161 롯데백화점 대구점",
+        "latitude": 35.8760013,
+        "longitude": 128.5960548
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202608/SNM00000000000550653/20260801184947868_2.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39038"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39031",
+      "title": "[볼앤체인] 유니크 쇼퍼백 POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "롯데백화점 인천점",
+        "address": "인천 미추홀구 연남로 35 롯데백화점 인천점",
+        "latitude": 37.4419398,
+        "longitude": 126.7026655
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-11-05"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202610/SNM00000000000564690/20261005150741555_3.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39031"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39018",
@@ -1548,7 +3708,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39018"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39017",
@@ -1575,7 +3735,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39017"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-39016",
@@ -1602,7 +3762,196 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=39016"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-39014",
+      "title": "[닛카 위스키] Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 광복점",
+        "address": "부산 중구 중앙대로 2 롯데백화점 광복점",
+        "latitude": 35.1085292,
+        "longitude": 129.0367282
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202604/SNM00000000000527536/20260420092613209_4.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=39014"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38966",
+      "title": "테쿠루 POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "울산",
+      "venue": {
+        "name": "현대백화점 울산점",
+        "address": "울산 남구 삼산로 261 현대백화점 울산점",
+        "latitude": 35.5349396,
+        "longitude": 129.3182006
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202607/27/f2ff257b-698a-4b23-b88b-3ea61d785687.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38966"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38952",
+      "title": "미니도우 POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "울산",
+      "venue": {
+        "name": "현대백화점 울산점",
+        "address": "울산 남구 삼산로 261 현대백화점 울산점",
+        "latitude": 35.5349396,
+        "longitude": 129.3182006
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/29/5eee0c65-3a45-4b95-9212-3562e5e88f5a.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38952"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38951",
+      "title": "몽클레르 POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "울산",
+      "venue": {
+        "name": "현대백화점 울산점",
+        "address": "울산 남구 삼산로 261 현대백화점 울산점",
+        "latitude": 35.5349396,
+        "longitude": 129.3182006
+      },
+      "period": {
+        "start": "2026-10-08",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/30/ba5512d9-b137-40c1-9a2a-6657c52bcbf6.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38951"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38933",
+      "title": "[카작]POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 광복점",
+        "address": "부산 중구 중앙대로 2 롯데백화점 광복점",
+        "latitude": 35.1085292,
+        "longitude": 129.0367282
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202610/SNM00000000000563816/20261001124506955_4.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38933"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38931",
+      "title": "[시몬스] BLACK 10th Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "롯데백화점 인천점",
+        "address": "인천 미추홀구 연남로 35 롯데백화점 인천점",
+        "latitude": 37.4419398,
+        "longitude": 126.7026655
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-25"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202610/SNM00000000000563781/20261001095956277_9.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38931"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38928",
+      "title": "[바잇미] POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 센텀시티점",
+        "address": "부산 해운대구 센텀남대로 59 롯데백화점 센텀시티점",
+        "latitude": 35.1669512,
+        "longitude": 129.1283006
+      },
+      "period": {
+        "start": "2026-10-09",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000563721/20260930184758151_6.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38928"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-38923",
@@ -1629,7 +3978,142 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=38923"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38915",
+      "title": "[그로서리스터프] 그로서리 토탈편집샵 Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 부산본점",
+        "address": "부산 부산진구 가야대로 772 롯데백화점 부산본점",
+        "latitude": 35.1566321,
+        "longitude": 129.0559961
+      },
+      "period": {
+        "start": "2026-10-05",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202610/SNM00000000000563244/20261001194241660_2.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38915"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38908",
+      "title": "[POP-UP] 쿠루미야끼 호두과자",
+      "brandName": null,
+      "category": "푸드",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-10-01",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202604/23/88a9ead2-5e71-4379-8a0b-540bc43311b5.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38908"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38899",
+      "title": "[POP-UP] 스튜디오 톰보이",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/29/d886a70d-69de-499b-ab5c-9af9c8ec010f.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38899"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38898",
+      "title": "[POP-UP] 브레더스",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-10-01",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202509/24/74e721dc-d649-420e-aec1-3b63a922a7a5.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38898"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38896",
+      "title": "[POP-UP] 바버 Barbour UP TO 70%",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-10-01",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/30/3b733dd4-4205-47fd-a2c6-50fe1e5bed4a.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38896"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-38894",
@@ -1656,7 +4140,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=38894"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-38888",
@@ -1683,7 +4167,412 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=38888"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38886",
+      "title": "[POP-UP] 그립비 뷰티 GRIP B",
+      "brandName": null,
+      "category": "캐릭터·IP",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202610/01/4e3a9fab-9de0-4119-ab8d-8dfb8987214f.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38886"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38883",
+      "title": "[POP-UP STORE] 헤지스 여성 & 키즈",
+      "brandName": null,
+      "category": "기타",
+      "region": "충북",
+      "venue": {
+        "name": "현대백화점 충청점",
+        "address": "충북 청주시 흥덕구 직지대로 308 현대백화점 충청점",
+        "latitude": 36.6442598,
+        "longitude": 127.4359245
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/26/ade8adfe-aa57-499d-92ec-10530d21b4b5.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38883"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38877",
+      "title": "[POP-UP STORE] 트렌디아",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202603/21/94c3ae5b-c35b-4b6f-82de-4b43dc2e2697.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38877"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38875",
+      "title": "[POP-UP STORE] 클린테리어 위크 - 위칙",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202401/11/848d22f5-09fc-4478-b557-1a9734289eaf_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38875"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38874",
+      "title": "[POP-UP STORE] 클린테리어 위크 - TTW",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/22/88ccb7bc-d689-4285-9785-0072ce967e78.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38874"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38871",
+      "title": "[POP-UP STORE] 제반드로의 대구에 사는 대구 팝업스토어",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/27/9e2e6ce3-35d6-47fe-8c25-044d8b7eae4e.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38871"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38868",
+      "title": "[POP-UP STORE] 애니모어",
+      "brandName": null,
+      "category": "기타",
+      "region": "충북",
+      "venue": {
+        "name": "현대백화점 충청점",
+        "address": "충북 청주시 흥덕구 직지대로 308 현대백화점 충청점",
+        "latitude": 36.6442598,
+        "longitude": 127.4359245
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202606/13/b0b6dd03-af34-41bb-af14-5ba7d09f6774.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38868"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38861",
+      "title": "[POP-UP STORE] 셸링 주얼리",
+      "brandName": null,
+      "category": "기타",
+      "region": "충북",
+      "venue": {
+        "name": "현대백화점 충청점",
+        "address": "충북 청주시 흥덕구 직지대로 308 현대백화점 충청점",
+        "latitude": 36.6442598,
+        "longitude": 127.4359245
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/28/4191be47-39aa-4282-bb84-68b8c84af5cc.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38861"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38853",
+      "title": "[POP-UP STORE] 바이리네",
+      "brandName": null,
+      "category": "기타",
+      "region": "충북",
+      "venue": {
+        "name": "현대백화점 충청점",
+        "address": "충북 청주시 흥덕구 직지대로 308 현대백화점 충청점",
+        "latitude": 36.6442598,
+        "longitude": 127.4359245
+      },
+      "period": {
+        "start": "2026-10-01",
+        "end": "2026-12-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202604/25/55abde1c-5757-4089-a98e-2b4d13aea7f3.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38853"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38837",
+      "title": "[POP-UP STORE] 고요이 (goyoyi)",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202601/25/8b369058-74c8-4085-868b-36b8da3912e3.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38837"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38836",
+      "title": "[POP-UP STORE] 강릉길감자",
+      "brandName": null,
+      "category": "기타",
+      "region": "충북",
+      "venue": {
+        "name": "현대백화점 충청점",
+        "address": "충북 청주시 흥덕구 직지대로 308 현대백화점 충청점",
+        "latitude": 36.6442598,
+        "longitude": 127.4359245
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/22/35074694-d3ac-42aa-af11-28578dd2f64a.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38836"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38831",
+      "title": "[POP-UP STORE] 52TOYS",
+      "brandName": null,
+      "category": "기타",
+      "region": "충북",
+      "venue": {
+        "name": "현대백화점 충청점",
+        "address": "충북 청주시 흥덕구 직지대로 308 현대백화점 충청점",
+        "latitude": 36.6442598,
+        "longitude": 127.4359245
+      },
+      "period": {
+        "start": "2026-10-01",
+        "end": "2026-10-22"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/16/89472949-3747-458f-af27-ac5528c0d2d4.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38831"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38673",
+      "title": "[슬렙트] Pop-Up Wedding Festival",
+      "brandName": null,
+      "category": "기타",
+      "region": "대전",
+      "venue": {
+        "name": "롯데백화점 대전점",
+        "address": "대전 서구 계룡로 598 롯데백화점 대전점",
+        "latitude": 36.3379302,
+        "longitude": 127.3959038
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/20260921155802302_6.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38673"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38652",
+      "title": "[폴앤안나] POP-UP STORE",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 부산본점",
+        "address": "부산 부산진구 가야대로 772 롯데백화점 부산본점",
+        "latitude": 35.1566321,
+        "longitude": 129.0559961
+      },
+      "period": {
+        "start": "2026-10-01",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000562928/20260929115422715_2.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38652"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38643",
+      "title": "[어그]UGG with WONYOUNG Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "광주",
+      "venue": {
+        "name": "롯데백화점 광주점",
+        "address": "광주 동구 독립로 268 롯데백화점 광주점",
+        "latitude": 35.1516323,
+        "longitude": 126.9074736
+      },
+      "period": {
+        "start": "2026-10-01",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/20260921191037891_0.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38643"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-38625",
@@ -1710,7 +4599,1222 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=38625"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38619",
+      "title": "오징어 순대&인생마늘빵 POP-UP",
+      "brandName": null,
+      "category": "푸드",
+      "region": "울산",
+      "venue": {
+        "name": "롯데백화점 울산점",
+        "address": "울산 남구 삼산로 288 롯데백화점 울산점",
+        "latitude": 35.53881,
+        "longitude": 129.33884
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000562826/20260928191222717_4.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38619"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38605",
+      "title": "[클럽모나코 남성] Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "전북",
+      "venue": {
+        "name": "롯데백화점 전주점",
+        "address": "전북 전주시 완산구 온고을로 2 롯데백화점 전주점",
+        "latitude": 35.836428,
+        "longitude": 127.1051206
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-11-05"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202009/CNT00000000000009043/20200918163512380_9.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38605"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38600",
+      "title": "[굿즈플래너] Pop-Up Open",
+      "brandName": null,
+      "category": "기타",
+      "region": "울산",
+      "venue": {
+        "name": "롯데백화점 울산점",
+        "address": "울산 남구 삼산로 288 롯데백화점 울산점",
+        "latitude": 35.53881,
+        "longitude": 129.33884
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202607/SNM00000000000549260/20260726181651129_0.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38600"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38574",
+      "title": "[꿀잠연구소] 부산본점 Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 부산본점",
+        "address": "부산 부산진구 가야대로 772 롯데백화점 부산본점",
+        "latitude": 35.1566321,
+        "longitude": 129.0559961
+      },
+      "period": {
+        "start": "2026-10-01",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000557474/20260929174807642_7.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38574"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38570",
+      "title": "[보타닉센스] POP-UP OPEN 기념 프로모션",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 센텀시티점",
+        "address": "부산 해운대구 센텀남대로 59 롯데백화점 센텀시티점",
+        "latitude": 35.1669512,
+        "longitude": 129.1283006
+      },
+      "period": {
+        "start": "2026-09-29",
+        "end": "2026-10-29"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000561073/20260919140807104_8.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38570"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38553",
+      "title": "[바니번(BANNY BUN)] Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "광주",
+      "venue": {
+        "name": "롯데백화점 광주점",
+        "address": "광주 동구 독립로 268 롯데백화점 광주점",
+        "latitude": 35.1516323,
+        "longitude": 126.9074736
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-29"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000563019/20260929135849734_9.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38553"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38551",
+      "title": "[육심원] 가을 컬러 Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 센텀시티점",
+        "address": "부산 해운대구 센텀남대로 59 롯데백화점 센텀시티점",
+        "latitude": 35.1669512,
+        "longitude": 129.1283006
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000562904/20260929100944540_6.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38551"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38546",
+      "title": "[쌀로 만든 도넛] Pop-Up 행사",
+      "brandName": null,
+      "category": "기타",
+      "region": "광주",
+      "venue": {
+        "name": "롯데백화점 광주점",
+        "address": "광주 동구 독립로 268 롯데백화점 광주점",
+        "latitude": 35.1516323,
+        "longitude": 126.9074736
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000563030/20260929142036460_9.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38546"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38529",
+      "title": "[오덴세] Pop-Up Open",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 부산본점",
+        "address": "부산 부산진구 가야대로 772 롯데백화점 부산본점",
+        "latitude": 35.1566321,
+        "longitude": 129.0559961
+      },
+      "period": {
+        "start": "2026-10-01",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000557707/20260903185302823_0.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38529"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38521",
+      "title": "[리프제이] Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 부산본점",
+        "address": "부산 부산진구 가야대로 772 롯데백화점 부산본점",
+        "latitude": 35.1566321,
+        "longitude": 129.0559961
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202607/SNM00000000000546361/20260710152553143_7.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38521"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38514",
+      "title": "[노배드바이브스] 아메리칸쿠키 Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "울산",
+      "venue": {
+        "name": "롯데백화점 울산점",
+        "address": "울산 남구 삼산로 288 롯데백화점 울산점",
+        "latitude": 35.53881,
+        "longitude": 129.33884
+      },
+      "period": {
+        "start": "2026-09-18",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202505/SNM00000000000458183/20250529153738864_2.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38514"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38512",
+      "title": "프리미엄 수입 생활용품 [마켓틸다] POP-UP",
+      "brandName": null,
+      "category": "리빙",
+      "region": "울산",
+      "venue": {
+        "name": "롯데백화점 울산점",
+        "address": "울산 남구 삼산로 288 롯데백화점 울산점",
+        "latitude": 35.53881,
+        "longitude": 129.33884
+      },
+      "period": {
+        "start": "2026-10-02",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202510/SNM00000000000487985/20251018101033174_4.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38512"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38468",
+      "title": "[POP-UP STORE] 팝콘 게임즈 보드게임 제1회 보드게임 대회",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-10-01",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/22/f503ccb3-4c9b-4b40-ae03-33d0f769589f.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38468"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38435",
+      "title": "[빈티지뮤지엄] Pop-Up open",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 센텀시티점",
+        "address": "부산 해운대구 센텀남대로 59 롯데백화점 센텀시티점",
+        "latitude": 35.1669512,
+        "longitude": 129.1283006
+      },
+      "period": {
+        "start": "2026-09-27",
+        "end": "2026-12-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000561621/2026092212130573_1.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38435"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38415",
+      "title": "[POP-UP] 카멜커피",
+      "brandName": null,
+      "category": "푸드",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-10-01",
+        "end": "2027-03-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202609/17/6f993cdf-3a72-4424-b2a6-e75b183619d1_02.gif",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38415"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38408",
+      "title": "[POP-UP STORE] 슬립디노",
+      "brandName": null,
+      "category": "뷰티",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-09-29",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/14/297917d9-4e4b-42f6-beb2-8b40071ab9d4.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38408"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38400",
+      "title": "[레이브] 팝업",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "신세계백화점 센텀시티",
+        "address": "부산 해운대구 센텀남대로 35 신세계백화점 센텀시티",
+        "latitude": 35.1687608,
+        "longitude": 129.1296435
+      },
+      "period": {
+        "start": "2026-09-21",
+        "end": "2026-10-14"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://www.shinsegae.com/cms12/SC00008/info/shopping/brndsingle/__icsFiles/afieldfile/2026/09/15/720x720__-20260911080908-20260911080909_1.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38400"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38357",
+      "title": "유닛 캐시미어 POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "울산",
+      "venue": {
+        "name": "현대백화점 울산점",
+        "address": "울산 남구 삼산로 261 현대백화점 울산점",
+        "latitude": 35.5349396,
+        "longitude": 129.3182006
+      },
+      "period": {
+        "start": "2026-09-21",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202609/20/8c94a35e-faed-44f6-a07a-19228f03e31d_02.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38357"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38168",
+      "title": "[POP-UP STORE] 폴앤안나 & 메리베리위시",
+      "brandName": null,
+      "category": "기타",
+      "region": "충북",
+      "venue": {
+        "name": "현대백화점 충청점",
+        "address": "충북 청주시 흥덕구 직지대로 308 현대백화점 충청점",
+        "latitude": 36.6442598,
+        "longitude": 127.4359245
+      },
+      "period": {
+        "start": "2026-09-18",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202606/18/b8fafc61-b84d-41cc-8953-c632b1fa50cb_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38168"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38132",
+      "title": "[POP-UP STORE] 알렉산드르 드 파리",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "더현대 대구",
+        "address": "대구 중구 달구벌대로 2077 더현대 대구",
+        "latitude": 35.8666782,
+        "longitude": 128.5906009
+      },
+      "period": {
+        "start": "2026-09-22",
+        "end": "2026-12-10"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/16/b0e629d2-2e74-4654-af3e-5c3c60f759b2.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38132"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38117",
+      "title": "[POP-UP STORE] 박뚜기 소금빵",
+      "brandName": null,
+      "category": "푸드",
+      "region": "부산",
+      "venue": {
+        "name": "커넥트현대 부산",
+        "address": "부산 동구 범일로 125 커넥트현대 부산",
+        "latitude": 35.1362586,
+        "longitude": 129.0594176
+      },
+      "period": {
+        "start": "2026-09-21",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202609/16/54f8da18-935c-4738-8d30-f3e223f338a0.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38117"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-38051",
+      "title": "K-베이커리를 빛낸 주역들 Pop-Up",
+      "brandName": null,
+      "category": "푸드",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 부산본점",
+        "address": "부산 부산진구 가야대로 772 롯데백화점 부산본점",
+        "latitude": 35.1566321,
+        "longitude": 129.0559961
+      },
+      "period": {
+        "start": "2026-09-21",
+        "end": "2026-10-15"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000560340/20260916184531930_3.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=38051"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-37843",
+      "title": "[트렌타로마] 퍼퓸 Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "롯데백화점 인천점",
+        "address": "인천 미추홀구 연남로 35 롯데백화점 인천점",
+        "latitude": 37.4419398,
+        "longitude": 126.7026655
+      },
+      "period": {
+        "start": "2026-09-11",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000555007/20260904155835978_6.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=37843"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-37820",
+      "title": "[POP-UP] 두두앤도도",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-09-04",
+        "end": "2026-11-05"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202608/25/095f9292-11c5-409e-b6d1-94b265682efa.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=37820"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-37720",
+      "title": "씰리 매트리스 POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "울산",
+      "venue": {
+        "name": "현대백화점 울산점",
+        "address": "울산 남구 삼산로 261 현대백화점 울산점",
+        "latitude": 35.5349396,
+        "longitude": 129.3182006
+      },
+      "period": {
+        "start": "2026-09-10",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202604/30/74f7e339-d84c-415e-baf4-2652f0e11410.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=37720"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-37327",
+      "title": "[박뚜기소금빵] Pop-Up",
+      "brandName": null,
+      "category": "푸드",
+      "region": "경남",
+      "venue": {
+        "name": "롯데백화점 창원점",
+        "address": "경남 창원시 성산구 중앙대로 124 롯데백화점 창원점",
+        "latitude": 35.2247904,
+        "longitude": 128.6818709
+      },
+      "period": {
+        "start": "2026-09-07",
+        "end": "2026-11-30"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202609/SNM00000000000557075/20260901185433832_1.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=37327"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-37125",
+      "title": "[POP-UP STORE] 타코네코",
+      "brandName": null,
+      "category": "기타",
+      "region": "충북",
+      "venue": {
+        "name": "현대백화점 충청점",
+        "address": "충북 청주시 흥덕구 직지대로 308 현대백화점 충청점",
+        "latitude": 36.6442598,
+        "longitude": 127.4359245
+      },
+      "period": {
+        "start": "2026-08-17",
+        "end": "2026-10-18"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202510/15/af49da80-613e-4691-8b04-df5d0c8ccbbb_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=37125"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-36919",
+      "title": "[POP-UP] 챌린저골프",
+      "brandName": null,
+      "category": "패션",
+      "region": "대전",
+      "venue": {
+        "name": "현대프리미엄아울렛 대전점",
+        "address": "대전광역시 유성구 테크노중앙로 123 현대프리미엄아울렛 대전점",
+        "latitude": 36.4234668,
+        "longitude": 127.3992723
+      },
+      "period": {
+        "start": "2026-08-28",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202608/26/1454ed8b-6569-4d34-8510-0cf1b6192e3a_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=36919"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-36918",
+      "title": "[POP-UP] 마크앤로나",
+      "brandName": null,
+      "category": "기타",
+      "region": "대전",
+      "venue": {
+        "name": "현대프리미엄아울렛 대전점",
+        "address": "대전광역시 유성구 테크노중앙로 123 현대프리미엄아울렛 대전점",
+        "latitude": 36.4234668,
+        "longitude": 127.3992723
+      },
+      "period": {
+        "start": "2026-08-28",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202608/26/86f034c1-7d3f-4b8d-8825-9d7bb983b0ec_02.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=36918"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-36909",
+      "title": "[POP-UP] 더레모네이드",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-08-15",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202606/29/a5e39d8b-a3a0-4b4a-bd4d-cde1d2b0f0d8.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=36909"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-36794",
+      "title": "[더 비(the B)] 유스 캐주얼 Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "전북",
+      "venue": {
+        "name": "롯데백화점 전주점",
+        "address": "전북 전주시 완산구 온고을로 2 롯데백화점 전주점",
+        "latitude": 35.836428,
+        "longitude": 127.1051206
+      },
+      "period": {
+        "start": "2026-08-25",
+        "end": "2026-10-29"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202608/SNM00000000000554028/20260819165103905_6.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=36794"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-36504",
+      "title": "유·스 캐주얼 「더 비(the B)」POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "전북",
+      "venue": {
+        "name": "롯데백화점 전주점",
+        "address": "전북 전주시 완산구 온고을로 2 롯데백화점 전주점",
+        "latitude": 35.836428,
+        "longitude": 127.1051206
+      },
+      "period": {
+        "start": "2026-08-25",
+        "end": "2026-10-29"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202608/SNM00000000000554028/20260819165103905_6.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=36504"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-36503",
+      "title": "[올어바웃뉴]POP - UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "전북",
+      "venue": {
+        "name": "롯데백화점 전주점",
+        "address": "전북 전주시 완산구 온고을로 2 롯데백화점 전주점",
+        "latitude": 35.836428,
+        "longitude": 127.1051206
+      },
+      "period": {
+        "start": "2026-08-25",
+        "end": "2026-10-29"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202607/SNM00000000000502869/20260729175947895_9.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=36503"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-36487",
+      "title": "[슬렙트] 프리미엄 숙면 블렌딩 POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "롯데백화점 광복점",
+        "address": "부산 중구 중앙대로 2 롯데백화점 광복점",
+        "latitude": 35.1085292,
+        "longitude": 129.0367282
+      },
+      "period": {
+        "start": "2026-08-28",
+        "end": "2026-10-29"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202604/20260421105714611_4.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=36487"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-35945",
+      "title": "[POP-UP] 올 오브 어스",
+      "brandName": null,
+      "category": "기타",
+      "region": "인천",
+      "venue": {
+        "name": "현대프리미엄아울렛 송도점",
+        "address": "인천광역시 연수구 송도국제대로 123 현대프리미엄아울렛 송도점",
+        "latitude": 37.3814979,
+        "longitude": 126.6575222
+      },
+      "period": {
+        "start": "2026-08-07",
+        "end": "2026-12-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202608/05/cced56dc-6e93-4057-b6f9-b5ae7b197cf1.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=35945"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-35918",
+      "title": "3H 지압침대 POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "울산",
+      "venue": {
+        "name": "현대백화점 울산점",
+        "address": "울산 남구 삼산로 261 현대백화점 울산점",
+        "latitude": 35.5349396,
+        "longitude": 129.3182006
+      },
+      "period": {
+        "start": "2026-08-07",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202608/04/58a7b1d8-3dc1-4a23-8774-0bc3aeb04db7.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=35918"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-35917",
+      "title": "도미실 소파 POP-UP",
+      "brandName": null,
+      "category": "기타",
+      "region": "울산",
+      "venue": {
+        "name": "현대백화점 울산점",
+        "address": "울산 남구 삼산로 261 현대백화점 울산점",
+        "latitude": 35.5349396,
+        "longitude": 129.3182006
+      },
+      "period": {
+        "start": "2026-08-11",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202608/04/a760a3bf-d5eb-4c45-9600-17d56da80f41.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=35917"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-35617",
+      "title": "[프론투라인] 이청아PICK 웰니스웨어POP-UP",
+      "brandName": null,
+      "category": "패션",
+      "region": "경남",
+      "venue": {
+        "name": "롯데백화점 창원점",
+        "address": "경남 창원시 성산구 중앙대로 124 롯데백화점 창원점",
+        "latitude": 35.2247904,
+        "longitude": 128.6818709
+      },
+      "period": {
+        "start": "2026-08-04",
+        "end": "2026-11-01"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202607/SNM00000000000550212/20260730184143278_0.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=35617"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-35334",
+      "title": "[POP-UP STORE] 유니크플랜트",
+      "brandName": null,
+      "category": "기타",
+      "region": "충북",
+      "venue": {
+        "name": "현대백화점 충청점",
+        "address": "충북 청주시 흥덕구 직지대로 308 현대백화점 충청점",
+        "latitude": 36.6442598,
+        "longitude": 127.4359245
+      },
+      "period": {
+        "start": "2026-07-31",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/evntCrdInf/imgPath2/202607/27/b677002f-9d3b-4fba-944e-83066190254d.png",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=35334"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-34223",
+      "title": "[사만사타바사] 핸드백 Pop-Up Open",
+      "brandName": null,
+      "category": "패션",
+      "region": "대전",
+      "venue": {
+        "name": "롯데백화점 대전점",
+        "address": "대전 서구 계룡로 598 롯데백화점 대전점",
+        "latitude": 36.3379302,
+        "longitude": 127.3959038
+      },
+      "period": {
+        "start": "2026-07-28",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202607/SNM00000000000548712/20260723151705427_1.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=34223"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-33628",
+      "title": "[티나] Pop-Up",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "롯데백화점 대구점",
+        "address": "대구 북구 태평로 161 롯데백화점 대구점",
+        "latitude": 35.8760013,
+        "longitude": 128.5960548
+      },
+      "period": {
+        "start": "2026-07-14",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202605/SNM00000000000532067/20260519105917313_9.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=33628"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-31421",
+      "title": "POP-UP PCCM, 커스텀 폰케이스",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "현대아울렛 대구점",
+        "address": "대구광역시 동구 동대구로 454 현대아울렛 대구점",
+        "latitude": 35.8745716,
+        "longitude": 128.6255164
+      },
+      "period": {
+        "start": "2026-07-06",
+        "end": "2026-12-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://imgprism.ehyundai.com/derivedImage/fileValue/202604/16/059cece1-a462-4234-bb3e-489226352522_02.gif",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=31421"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-30026",
+      "title": "[상하목장] Pop-Up New Open",
+      "brandName": null,
+      "category": "기타",
+      "region": "울산",
+      "venue": {
+        "name": "롯데백화점 울산점",
+        "address": "울산 남구 삼산로 288 롯데백화점 울산점",
+        "latitude": 35.53881,
+        "longitude": 129.33884
+      },
+      "period": {
+        "start": "2026-06-19",
+        "end": "2026-10-31"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://minfo.lotteshopping.com/content/news/202606/SNM00000000000542402/20260624091114470_9.jpeg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=30026"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-28140",
+      "title": "T1 Base Camp in 부산 팝업",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "구남로 37",
+        "address": "부산 해운대구 구남로 37 2층 T1 BASE CAMP",
+        "latitude": 35.1616735,
+        "longitude": 129.1603502
+      },
+      "period": {
+        "start": "2026-06-15",
+        "end": "2026-12-14"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260609_67%2F1781001351846GTUT4_JPEG%2FT1_BASECAMP_Logo_2.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=28140"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-28044",
+      "title": "민들레식당 팝업",
+      "brandName": null,
+      "category": "기타",
+      "region": "부산",
+      "venue": {
+        "name": "672 삼정타워",
+        "address": "부산 부산진구 중앙대로 672 삼정타워 5층",
+        "latitude": 35.1530039,
+        "longitude": 129.0596225
+      },
+      "period": {
+        "start": "2026-06-05",
+        "end": "2027-03-04"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": null,
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=28044"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-26602",
@@ -1737,7 +5841,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=26602"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-25015",
@@ -1764,7 +5868,34 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=25015"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
+    },
+    {
+      "id": "dayforyou-25013",
+      "title": "마망갸또 팝업 IN 대구",
+      "brandName": null,
+      "category": "기타",
+      "region": "대구",
+      "venue": {
+        "name": "동부로 149",
+        "address": "대구 동구 동부로 149 지하 1층 마망갸또 신세계 대구점",
+        "latitude": 35.8775214,
+        "longitude": 128.628187
+      },
+      "period": {
+        "start": "2026-03-01",
+        "end": "2027-02-28"
+      },
+      "verificationStatus": "auto_parsed",
+      "confidence": 0.74,
+      "imageUrl": "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20260423_157%2F1776913288644Q6PcO_JPEG%2F%25BD%25C5%25BC%25BC%25B0%25E8_%25B4%25EB%25B1%25B8_%25281%2529.jpg",
+      "source": {
+        "name": "데이포유",
+        "type": "aggregator",
+        "url": "https://dayforyou.com/getDetail?scheduleSeq=25013"
+      },
+      "firstSeenAt": "2026-10-12T07:06:50.490Z",
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-25012",
@@ -1791,7 +5922,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=25012"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-24086",
@@ -1818,7 +5949,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=24086"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     },
     {
       "id": "dayforyou-15433",
@@ -1845,7 +5976,7 @@
         "url": "https://dayforyou.com/getDetail?scheduleSeq=15433"
       },
       "firstSeenAt": "2026-10-08T17:00:00+09:00",
-      "lastVerifiedAt": "2026-10-08T17:00:00+09:00"
+      "lastVerifiedAt": "2026-10-12T07:06:50.490Z"
     }
   ]
-      }
+}
