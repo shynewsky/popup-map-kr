@@ -2,7 +2,10 @@ import { readFile, writeFile } from 'node:fs/promises';
 import https from 'node:https';
 
 const LIST_URL = 'https://dayforyou.com/getScheduleList';
-const POPPLY_API_URL = 'https://popply.co.kr/api/store/?';
+const POPPLY_API_URLS = [
+  'https://popply.co.kr/api/store/?status=open',
+  'https://popply.co.kr/api/store/?status=scheduled'
+];
 const POPPLY_PUBLIC_URL = 'https://popply.co.kr/popup';
 const OUTPUT = new URL('../api/v1/popups.json', import.meta.url);
 const MAX_RECORDS = Number(process.env.MAX_RECORDS || 350);
@@ -22,6 +25,18 @@ const regionAliases = {
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 const todayKst = () => new Intl.DateTimeFormat('en-CA', { timeZone:'Asia/Seoul', year:'numeric', month:'2-digit', day:'2-digit' }).format(new Date());
+const addDays = (date, days) => {
+  const value = new Date(`${date}T00:00:00Z`);
+  value.setUTCDate(value.getUTCDate() + days);
+  return value.toISOString().slice(0, 10);
+};
+const nextWeekWindow = (referenceDate = todayKst()) => {
+  const dayOfWeek = new Date(`${referenceDate}T00:00:00Z`).getUTCDay();
+  const daysUntilNextMonday = dayOfWeek === 0 ? 1 : 8 - dayOfWeek;
+  const start = addDays(referenceDate, daysUntilNextMonday);
+  return { start, end:addDays(start, 6), timeZone:'Asia/Seoul' };
+};
+const overlapsWindow = (start, end, window) => start <= window.end && end >= window.start;
 const cleanText = value => value.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/\\([\[\]])/g, '$1').replace(/\s+/g, ' ').trim();
 
 function normalizedTitle(value) {
@@ -201,12 +216,12 @@ async function main() {
   }]));
 
   const html = await fetchDayForYou(LIST_URL);
-  const today = todayKst();
+  const window = nextWeekWindow();
   const parsedRecords = parse(html);
   const groups = new Map();
   let duplicatesMerged = 0;
   for (const record of parsedRecords) {
-    if (record.end < today) continue;
+    if (!overlapsWindow(record.start, record.end, window)) continue;
     if (!/(팝업|POP\s*-?\s*UP|Pop\s*-?\s*Up|popup|콜라보)/i.test(record.title)) continue;
     const groupKey = `${record.address}|${record.start}|${record.end}`.toLowerCase().replace(/\s+/g, '');
     const group = groups.get(groupKey) || [];
@@ -255,16 +270,18 @@ async function main() {
     };
   });
 
-  const popplyResponse = await fetch(POPPLY_API_URL, {
-    headers:{ 'User-Agent':USER_AGENT, Accept:'application/json' }
-  });
-  if (!popplyResponse.ok) throw new Error(`Popply returned ${popplyResponse.status}`);
-  const popplyPayload = await popplyResponse.json();
-  const popplyRecords = Array.isArray(popplyPayload.data) ? popplyPayload.data : [];
+  const popplyPayloads = await Promise.all(POPPLY_API_URLS.map(async url => {
+    const response = await fetch(url, { headers:{ 'User-Agent':USER_AGENT, Accept:'application/json' } });
+    if (!response.ok) throw new Error(`Popply returned ${response.status} for ${url}`);
+    return response.json();
+  }));
+  const popplyRecords = [...new Map(popplyPayloads
+    .flatMap(payload => Array.isArray(payload.data) ? payload.data : [])
+    .map(record => [record.storeId, record])).values()];
   const popplyItems = popplyRecords.filter(record => {
     const latitude = Number(record.latitude);
     const longitude = Number(record.longitude);
-    return record.endDate >= today && record.approval === 'onair' && !record.isDelete &&
+    return overlapsWindow(record.startDate, record.endDate, window) && record.approval === 'onair' && !record.isDelete &&
       /^\d{4}-\d{2}-\d{2}$/.test(record.startDate || '') && /^\d{4}-\d{2}-\d{2}$/.test(record.endDate || '') &&
       latitude >= 32 && latitude <= 39.5 && longitude >= 124 && longitude <= 132.5 &&
       regionOf(`${record.topLevelAddress || ''} ${record.address || ''}`);
@@ -297,6 +314,7 @@ async function main() {
   const mergedRecords = duplicatesMerged + canonical.mergedRecords;
   const output = {
     apiVersion:'v1', generatedAt:now,
+    window:{ ...window, selection:'events overlapping the next Monday-Sunday window' },
     license:'Source-dependent. Each record includes its source URL.',
     deduplication:{
       mergedRecords,
@@ -315,7 +333,7 @@ async function main() {
     items:canonical.items
   };
   await writeFile(OUTPUT, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
-  console.log(`Wrote ${canonical.items.length} canonical records from ${dayForYouItems.length} DayForYou and ${popplyItems.length} Popply records; merged ${mergedRecords} candidates.`);
+  console.log(`Wrote ${canonical.items.length} canonical records for ${window.start} through ${window.end} from ${dayForYouItems.length} DayForYou and ${popplyItems.length} Popply records; merged ${mergedRecords} candidates.`);
 }
 
 main().catch(error => { console.error(error); process.exitCode = 1; });
