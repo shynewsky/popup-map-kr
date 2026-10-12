@@ -2,6 +2,8 @@ import { readFile, writeFile } from 'node:fs/promises';
 import https from 'node:https';
 
 const LIST_URL = 'https://dayforyou.com/getScheduleList';
+const POPPLY_API_URL = 'https://popply.co.kr/api/store/?';
+const POPPLY_PUBLIC_URL = 'https://popply.co.kr/popup';
 const OUTPUT = new URL('../api/v1/popups.json', import.meta.url);
 const MAX_RECORDS = Number(process.env.MAX_RECORDS || 350);
 const MAX_PER_REGION = Number(process.env.MAX_PER_REGION || 40);
@@ -60,6 +62,48 @@ function samePopupTitle(leftTitle, rightTitle) {
   if (left === right) return true;
   if (Math.min(left.length, right.length) >= 3 && (left.includes(right) || right.includes(left))) return true;
   return bigramDice(left, right) >= 0.72;
+}
+
+function distanceMeters(left, right) {
+  const toRadians = degrees => degrees * Math.PI / 180;
+  const radius = 6371000;
+  const latitudeDelta = toRadians(right.latitude - left.latitude);
+  const longitudeDelta = toRadians(right.longitude - left.longitude);
+  const leftLatitude = toRadians(left.latitude);
+  const rightLatitude = toRadians(right.latitude);
+  const value = Math.sin(latitudeDelta / 2) ** 2 +
+    Math.cos(leftLatitude) * Math.cos(rightLatitude) * Math.sin(longitudeDelta / 2) ** 2;
+  return 2 * radius * Math.asin(Math.sqrt(value));
+}
+
+function mergeCanonicalItems(records) {
+  const groups = new Map();
+  let mergedRecords = 0;
+  for (const record of records) {
+    const periodKey = `${record.period.start}|${record.period.end}`;
+    const group = groups.get(periodKey) || [];
+    const existing = group.find(candidate =>
+      samePopupTitle(candidate.title, record.title) &&
+      distanceMeters(candidate.venue, record.venue) <= 350
+    );
+    if (!existing) {
+      group.push(record);
+      groups.set(periodKey, group);
+      continue;
+    }
+    const sources = [...existing.sources, ...record.sources]
+      .filter((source, index, all) => all.findIndex(candidate => candidate.url === source.url) === index);
+    const primary = record.confidence > existing.confidence ? record : existing;
+    Object.assign(existing, primary, {
+      source:primary.source,
+      sources,
+      confidence:Math.max(existing.confidence, record.confidence),
+      firstSeenAt:[existing.firstSeenAt, record.firstSeenAt].filter(Boolean).sort()[0],
+      lastVerifiedAt:[existing.lastVerifiedAt, record.lastVerifiedAt].filter(Boolean).sort().at(-1)
+    });
+    mergedRecords++;
+  }
+  return { items:[...groups.values()].flat(), mergedRecords };
 }
 
 function regionOf(text = '') {
@@ -198,7 +242,7 @@ async function main() {
   }
 
   const now = new Date().toISOString();
-  const items = selected.filter(x => coordinateCache.has(x.address)).map(record => {
+  const dayForYouItems = selected.filter(x => coordinateCache.has(x.address)).map(record => {
     const geo = coordinateCache.get(record.address);
     const sources = record.sourceUrls.map(url => ({ name:'데이포유', type:'aggregator', url }));
     return {
@@ -211,21 +255,67 @@ async function main() {
     };
   });
 
+  const popplyResponse = await fetch(POPPLY_API_URL, {
+    headers:{ 'User-Agent':USER_AGENT, Accept:'application/json' }
+  });
+  if (!popplyResponse.ok) throw new Error(`Popply returned ${popplyResponse.status}`);
+  const popplyPayload = await popplyResponse.json();
+  const popplyRecords = Array.isArray(popplyPayload.data) ? popplyPayload.data : [];
+  const popplyItems = popplyRecords.filter(record => {
+    const latitude = Number(record.latitude);
+    const longitude = Number(record.longitude);
+    return record.endDate >= today && record.approval === 'onair' && !record.isDelete &&
+      /^\d{4}-\d{2}-\d{2}$/.test(record.startDate || '') && /^\d{4}-\d{2}-\d{2}$/.test(record.endDate || '') &&
+      latitude >= 32 && latitude <= 39.5 && longitude >= 124 && longitude <= 132.5 &&
+      regionOf(`${record.topLevelAddress || ''} ${record.address || ''}`);
+  }).map(record => {
+    const id = `popply-${record.storeId}`;
+    const source = { name:'팝플리', type:'platform', url:`https://popply.co.kr/popup/${record.storeId}` };
+    const address = cleanText(record.address || record.topLevelAddress || '');
+    return {
+      id,
+      title:cleanText(record.title || record.name || '팝업스토어'),
+      brandName:cleanText(record.mainBrand || '') || null,
+      category:categoryOf(`${record.title || record.name || ''} ${record.hashtag || ''}`),
+      region:regionOf(`${record.topLevelAddress || ''} ${address}`),
+      venue:{
+        name:cleanText(record.detailAddress || record.mainBrand || '') || venueOf(address),
+        address,
+        latitude:Number(record.latitude),
+        longitude:Number(record.longitude)
+      },
+      period:{ start:record.startDate, end:record.endDate },
+      verificationStatus:'auto_parsed', confidence:0.82,
+      imageUrl:typeof record.thumbnails === 'string' && record.thumbnails.startsWith('http') ? record.thumbnails : null,
+      source, sources:[source],
+      firstSeenAt:previous.items.find(item => item.id === id)?.firstSeenAt || record.createdAt || now,
+      lastVerifiedAt:now
+    };
+  });
+
+  const canonical = mergeCanonicalItems([...dayForYouItems, ...popplyItems]);
+  const mergedRecords = duplicatesMerged + canonical.mergedRecords;
   const output = {
     apiVersion:'v1', generatedAt:now,
     license:'Source-dependent. Each record includes its source URL.',
     deduplication:{
-      mergedRecords:duplicatesMerged,
-      strategy:'same address and period plus normalized title or brand similarity'
+      mergedRecords,
+      strategy:'same period, nearby coordinates, and normalized title or brand similarity'
     },
-    sourceSummary:[{
-      name:'데이포유', type:'aggregator', url:LIST_URL, records:items.length,
-      rawRecords:parsedRecords.length, duplicateCandidatesMerged:duplicatesMerged
-    }],
-    items
+    sourceSummary:[
+      {
+        name:'데이포유', type:'aggregator', url:LIST_URL, records:dayForYouItems.length,
+        rawRecords:parsedRecords.length, duplicateCandidatesMerged:duplicatesMerged
+      },
+      {
+        name:'팝플리', type:'platform', url:POPPLY_PUBLIC_URL, records:popplyItems.length,
+        rawRecords:popplyRecords.length, duplicateCandidatesMerged:canonical.mergedRecords
+      }
+    ],
+    items:canonical.items
   };
   await writeFile(OUTPUT, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
-  console.log(`Wrote ${items.length} canonical popup records; merged ${duplicatesMerged} duplicate candidates.`);
+  console.log(`Wrote ${canonical.items.length} canonical records from ${dayForYouItems.length} DayForYou and ${popplyItems.length} Popply records; merged ${mergedRecords} candidates.`);
 }
 
 main().catch(error => { console.error(error); process.exitCode = 1; });
