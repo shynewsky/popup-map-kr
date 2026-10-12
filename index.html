@@ -541,7 +541,8 @@
     }).then(data => {
       state.items = data.items || [];
       const merged = Number(data.deduplication?.mergedRecords || 0);
-      el('updatedAt').textContent = `업데이트 ${new Date(data.generatedAt).toLocaleString('ko-KR')}${merged ? ` · 중복 ${merged}건 병합` : ''}`;
+      const windowLabel = data.window?.start && data.window?.end ? ` · 대상 ${data.window.start}~${data.window.end}` : '';
+      el('updatedAt').textContent = `업데이트 ${new Date(data.generatedAt).toLocaleString('ko-KR')}${windowLabel}${merged ? ` · 중복 ${merged}건 병합` : ''}`;
       buildFilters(); render(); fitResults();
     }).catch(error => {
       console.error(error);
