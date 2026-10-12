@@ -23,7 +23,7 @@ components:
   schemas:
     PopupDataset:
       type: object
-      required: [apiVersion, generatedAt, sourceSummary, items]
+      required: [apiVersion, generatedAt, window, sourceSummary, items]
       properties:
         apiVersion:
           type: string
@@ -31,6 +31,8 @@ components:
         generatedAt:
           type: string
           format: date-time
+        window:
+          $ref: '#/components/schemas/CollectionWindow'
         license:
           type: string
         deduplication:
@@ -43,6 +45,14 @@ components:
           type: array
           items:
             $ref: '#/components/schemas/Popup'
+    CollectionWindow:
+      type: object
+      required: [start, end, timeZone, selection]
+      properties:
+        start: { type: string, format: date, description: 다음 주 월요일 }
+        end: { type: string, format: date, description: 다음 주 일요일 }
+        timeZone: { type: string, const: Asia/Seoul }
+        selection: { type: string }
     SourceSummary:
       type: object
       required: [name, type, url, records]
