@@ -18,11 +18,11 @@
 - 정적 JSON API 우선 구조
 - 동일 주소·기간과 정규화 제목·브랜드 유사도를 이용한 중복 병합
 - GitHub Actions 기반 Pages 자동 배포
-- 매일 공개 팝업 목록 갱신 워크플로
+- 매주 일요일 05:17(KST) 다음 주 팝업 목록 갱신 워크플로
 
 ## 데이터
 
-현재 라이브 수집 어댑터는 데이포유와 팝플리의 공개 목록을 함께 사용합니다. 운영 중·예정 항목을 같은 canonical popup 구조로 변환하고, 데이포유 주소는 OpenStreetMap Nominatim으로 좌표화하며 팝플리는 공개 피드의 좌표를 사용합니다. 각 레코드에는 모든 원문 URL, 수집 상태, 신뢰도, 최종 확인 시각을 포함합니다. 백화점·브랜드 공식 페이지도 같은 구조로 추가할 수 있습니다.
+현재 라이브 수집 어댑터는 데이포유와 팝플리의 공개 목록을 함께 사용합니다. 매주 일요일에 다음 월요일부터 일요일까지 운영 기간이 한 번이라도 겹치는 팝업만 같은 canonical popup 구조로 변환합니다. 데이포유 주소는 OpenStreetMap Nominatim으로 좌표화하며 팝플리는 공개 피드의 좌표를 사용합니다. 각 레코드에는 모든 원문 URL, 수집 상태, 신뢰도, 최종 확인 시각을 포함합니다. 백화점·브랜드 공식 페이지도 같은 구조로 추가할 수 있습니다.
 
 자동 수집 데이터는 방문 전 반드시 원문을 확인해 주세요.
 
@@ -38,7 +38,7 @@
 │  └─ validate-data.mjs           # 스키마·중복·좌표 검증
 └─ .github/workflows/
    ├─ pages.yml                   # 검증 후 GitHub Pages 배포
-   └─ refresh-data.yml            # 매일 데이터 갱신
+   └─ refresh-data.yml            # 매주 일요일 다음 주 데이터 갱신
 ```
 
 ## 로컬 실행
@@ -70,6 +70,7 @@ const response = await fetch(
   'https://shynewsky.github.io/popup-map-kr/api/v1/popups.json'
 );
 const data = await response.json();
+console.log(data.window); // 다음 주 월요일~일요일
 console.log(data.items);
 ```
 
