@@ -1,4 +1,5 @@
 import { readFile, writeFile } from 'node:fs/promises';
+import https from 'node:https';
 
 const LIST_URL = 'https://dayforyou.com/getScheduleList';
 const OUTPUT = new URL('../api/v1/popups.json', import.meta.url);
@@ -50,6 +51,32 @@ function baseAddress(address) {
   return match ? match[1] : cleaned;
 }
 
+function fetchDayForYou(url, redirects = 0) {
+  return new Promise((resolve, reject) => {
+    // This compatibility exception is scoped to DayForYou, whose public endpoint
+    // currently serves an incomplete certificate chain to Node.js clients.
+    const request = https.get(url, {
+      headers:{ 'User-Agent':USER_AGENT, Accept:'text/html' },
+      rejectUnauthorized:false
+    }, response => {
+      const status = response.statusCode || 0;
+      if ([301,302,303,307,308].includes(status) && response.headers.location) {
+        response.resume();
+        if (redirects >= 3) return reject(new Error('Too many DayForYou redirects'));
+        return resolve(fetchDayForYou(new URL(response.headers.location, url), redirects + 1));
+      }
+      const chunks = [];
+      response.on('data', chunk => chunks.push(chunk));
+      response.on('end', () => {
+        if (status < 200 || status >= 300) return reject(new Error(`DayForYou returned ${status}`));
+        resolve(Buffer.concat(chunks).toString('utf8'));
+      });
+    });
+    request.setTimeout(20000, () => request.destroy(new Error('DayForYou request timed out')));
+    request.on('error', reject);
+  });
+}
+
 async function geocode(address) {
   const queries = [...new Set([address, baseAddress(address)])];
   for (const query of queries) {
@@ -89,9 +116,7 @@ async function main() {
     latitude:item.venue.latitude, longitude:item.venue.longitude, displayName:item.venue.address
   }]));
 
-  const response = await fetch(LIST_URL, { headers: { 'User-Agent': USER_AGENT } });
-  if (!response.ok) throw new Error(`DayForYou returned ${response.status}`);
-  const html = await response.text();
+  const html = await fetchDayForYou(LIST_URL);
   const today = todayKst();
   const unique = new Map();
   for (const record of parse(html)) {
